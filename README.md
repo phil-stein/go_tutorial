@@ -1,4 +1,6 @@
 # go language tutorial
+made using this [youtube video](https://www.youtube.com/watch?v=8uiZC0l4Ajw)
+@NOTE: currently at 26:40
 
 ## installation
 go to [go-website](https://go.dev/dl/)
@@ -30,3 +32,19 @@ go to [go-website](https://go.dev/dl/)
   <name>.exe
   ```
   6. in terminal call `build` to run program
+
+## todo
+  - [ ] add simple read write terminal input in place 04
+    - answer questions get points
+    - enter name and age
+  - [ ] 06_game_01, make simple game using raylib
+    - falling boxes, move box at bottom to collect -> get highscore
+    - simple platformer with no objective
+    - answer given questions get points -> get highscore
+  - [ ] strings, runes, bytes
+  - [ ] structs and interfaces
+  - [ ] pointers
+  - [ ] goroutines
+  - [ ] channels
+  - [ ] generics
+
