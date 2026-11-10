@@ -1,5 +1,6 @@
 package main
 
+// imports import a set of x number of functions accessible via name_of_import.name_of_function
 import "fmt"
 import "errors"
 
@@ -12,7 +13,11 @@ func main(){
   // functions are called by adding () to the end
   // optionally with arguments inside
 
+  fmt.Println( "--- print_simple() ---" )
   print_simple()
+
+  fmt.Println( "--- arguments ---" )
+  // --- arguments ---
 
   print_arg( "calling func arg_func()" )
 
@@ -20,11 +25,23 @@ func main(){
   var str_00 string = "cock"
   print_arg( str_00 )
 
+  fmt.Println( "--- return values ---" )
+  // --- return values ---
+
   var result_00 int = int_divide( 12, 6 )
   fmt.Println( "result_00:", result_00 )
 
   var result_01, result_02 int = int_divide_complex( 11, 2 )
   fmt.Printf( "result_01: %v, result_02: %v\n", result_01, result_02 )
+  
+  fmt.Println( "-- return values: ignore --" )
+  // -- return values: ignore --
+  // you can use _ instead of assigning to a variable
+  var result_03, _ = int_divide_complex( 11, 2 )
+  fmt.Println( "result_03:", result_03 )
+
+  fmt.Println( "-- return values: errors --" )
+  // -- return values: errors --
 
   var result_03, result_04, err = int_divide_complex_error( 123, 0 )
   if err != nil {

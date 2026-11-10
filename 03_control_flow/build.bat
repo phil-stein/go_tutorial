@@ -1,5 +1,6 @@
 @echo off
 
-go build .
+:: go build .
+:: control_flow.exe
 
-03_control_flow.exe
+go run . -debug

@@ -21,6 +21,13 @@ func main(){
     }
   }
 
+  // -- break statement --
+  for {   // always true same as for true {}
+    if 0 == 0 {
+      break
+    }
+  }
+
   // -- traditional for loops --
   // first block declares a variable
   // second block defines end condition

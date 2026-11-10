@@ -1,3 +1,3 @@
-module 02_functions
+module functions
 
 go 1.27.3

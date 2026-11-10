@@ -1,5 +1,6 @@
 @echo off 
 
-go build .
+:: go build .
+:: functions.exe
 
-02_functions.exe
+go run . -debug

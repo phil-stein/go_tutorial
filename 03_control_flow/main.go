@@ -15,7 +15,6 @@ func main(){
 
   // switch statements are realy useful, just not when youre a beginner, so you can skip these if you want
   switch_statement()
-
 }
 
 func if_statement(){

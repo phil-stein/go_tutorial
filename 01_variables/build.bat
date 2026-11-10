@@ -1,5 +1,6 @@
 @echo off
 
-go build .
+:: go build .
+:: variables.exe
 
-01_variables.exe
+go run . -debug

@@ -3,8 +3,18 @@ package main
 import "fmt"
 import "unicode/utf8"
 
+// --------------------------------------------------------------
+// variables are basically a box with a certain item inside
+// the type of item is always the same but the value can change
+// f.e. the number type `int` can be any number between 
+//      -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+//      but it cant be a floating point number 
+// --------------------------------------------------------------
+
+
 func main(){
 
+  fmt.Println( "--- declarations ---" )
   // --- declaration --- 
 
   var inum int = 123456789
@@ -17,6 +27,7 @@ func main(){
   var fnum_big float64 = 0.1234567891234567
   fmt.Println( "fnum_big:", fnum_big )
   
+  fmt.Println( "--- maths ---" )
   // --- maths ---
   // all signed integer types are: int, int8, int16, int32, int64
   
@@ -36,6 +47,7 @@ func main(){
 
   var num int = 123
 
+  fmt.Println( "--- shorthands ---" )
   // -- shorthands --
 
   num++     // equivalent to num = num + 1 
@@ -45,6 +57,7 @@ func main(){
   num -= 2  // equivalent to num = num - 2
   num /= 2  // equivalent to num = num / 2
 
+  fmt.Println( "--- type conversion ---" )
   // --- type conversion ---
 
   var i int     = 123
@@ -53,6 +66,7 @@ func main(){
   var res_05 float32 = float32(i) + f
   fmt.Println( "res_05:", res_05 )
 
+  fmt.Println( "--- strings ---" )
   // --- strings, aka text ---
 
   var str_00 string = "hello there "
@@ -71,6 +85,7 @@ there`
   var rune_00 rune = 'A'
   fmt.Println( "rune_00", rune_00 )
 
+  fmt.Println( "--- booleans ---" )
   // --- booleans ---
 
   var b_00 bool = true
@@ -78,6 +93,7 @@ there`
   fmt.Println( "b_00:", b_00 )
   fmt.Println( "b_01:", b_01 )
 
+  fmt.Println( "--- default value ---" )
   // --- default value ---
 
   var default_i int
@@ -89,6 +105,7 @@ there`
   fmt.Println( "default_b:", default_b )
   fmt.Println( "default_s:", default_s )
 
+  fmt.Println( "--- unsigned ints ---" )
   // --- unsigned ints ---
   // unsigned integers can only have positive values no negative ones
 
@@ -96,6 +113,7 @@ there`
   fmt.Println( "u_00:", u_00 )
   // all unsigned integer types are: uint, uint8, uint16, uint32, uint64
   
+  fmt.Println( "--- type inferance ---" )
   // --- type inferance ---
   // declaring variables without specifing the type
   // prefer doing it with type declaration, bc. its easier to read
@@ -121,8 +139,10 @@ there`
   fmt.Println( "infered_08:", infered_08 )
   fmt.Println( "infered_09:", infered_09 )
 
+  fmt.Println( "--- multiple declarations ---" )
   // --- multiple declarations ---
   // !!! i recommend not doing this as its hard to read
+  //     unless receiveing multiple return values from func
 
   var md_00, md_01, md_02, md_03 = 123, "string", true, 'a'
   md_04, md_05 := 0.123, -200
@@ -134,6 +154,7 @@ there`
   fmt.Println( "md_05:", md_05 )
 
 
+  fmt.Println( "--- constants ---" )
   // --- constants ---
   // cant change the value later in the code
   // useful when u know a value is fixed, bc. the compiler will complain when u try u change its value

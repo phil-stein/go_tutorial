@@ -1,3 +1,3 @@
-module 03_control_flow
+module control_flow
 
 go 1.27.3
