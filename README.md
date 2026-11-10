@@ -5,14 +5,14 @@ made using this [youtube video](https://www.youtube.com/watch?v=8uiZC0l4Ajw)
 standard library docs are [here](https://pkg.go.dev/std)
 
 ## installation
-  1. install git from [here](https://gitforwindows.org/) 
+  1. install git from [here](https://gitforwindows.org/), or go to and open [this](./assets/Git-2.56.0.4-64-bit.exe) 
   2. open terminal and `cd` to your chosen directory
       - i recommend `C:\workspace\go` that way you stay organized 
       - use `cd` to change directory
       - use `mkdir` to make directories 
   3. execute command `git clone https://github.com/phil-stein/go_tutorial` 
   4. `cd go_tutorial` to go inside tutorial folder
-  5. go to [go-website](https://go.dev/dl/)
+  5. go to [go-website](https://go.dev/dl/), or open [this](./assets/go1.27.3.windows-amd64.msi)
 <img src="assets/installation_01.png" alt="installation_01" width="600">
   6. install it with the .msi installer
   7. close and reopen terminal

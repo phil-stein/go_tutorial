@@ -20,7 +20,7 @@ type electric_engine_t struct{
 }
 
 func (e gas_engine_t) km_abled_to_drive() int {
-  return int( e.fuel_liter * e.fuel_per_km )
+  return int( e.fuel_liter * e.liter_per_km )
 }
 
 func (e electric_engine_t) km_abled_to_drive() int {
@@ -31,7 +31,7 @@ type engine_t interface{
   km_abled_to_drive() int
 }
 
-func can_make_it( e engine_t, km int ) {
+func can_make_it( e engine_t, km int ) bool {
   return e.km_abled_to_drive() >= km
 }
 
@@ -42,11 +42,11 @@ func main(){
   var e electric_engine_t
   e.fuel_kw   = 2000
   e.kw_per_km = 100
-  fmt.Println( "can_make_it( e, 20 ):", can_make_it( e, 20 )  )
+  fmt.Println( "can_make_it( e, 30 ):", can_make_it( e, 30 )  )
 
   var g gas_engine_t
   g.fuel_liter   = 80
   g.liter_per_km = 13.5
-  fmt.Println( "can_make_it( g, 20 ):", can_make_it( g, 20 )  )
+  fmt.Println( "can_make_it( g, 30 ):", can_make_it( g, 30 )  )
 
 }
