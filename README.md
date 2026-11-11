@@ -43,6 +43,19 @@ standard library docs are [here](https://pkg.go.dev/std)
   ```
   6. in terminal call `build` to run program
 
+## install fyne for ui projects
+  1. go into terminal and `cd` into folder for project thats supposed to use fyne
+  2. excute command `go get fyne.io/fyne/v2@latest`
+  2. excute command `go get fyne.io/fyne/v2/internal/app@v2.8.2`
+  2. excute command `go get fyne.io/fyne/v2/internal/svg@v2.8.2`
+  2. excute command `go get fyne.io/fyne/v2/internal/painter@v2.8.2`
+  2. excute command `go get fyne.io/fyne/v2/lang@v2.8.2`
+  2. excute command `go get fyne.io/fyne/v2/widget@v2.8.2`
+  2. excute command `go get fyne.io/fyne/v2/internal/painter/software@v2.8.2`
+  2. excute command `go get fyne.io/fyne/v2/internal/driver/glfw@v2.8.2`
+  2. excute command `go get fyne.io/fyne/v2/internal/metadata@v2.8.2`
+  2. excute command `go get fyne.io/fyne/v2/app@v2.8.2`
+
 ## todo
   - [X] add simple read write terminal input in place 04
     - answer questions get points

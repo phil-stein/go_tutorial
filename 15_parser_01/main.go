@@ -262,6 +262,8 @@ func parse_tokens_parse_variable_name_value( data *data_t, parser_state *parser_
             var_name == "screen"{
     // fmt.Println( "frame_rate" )
     (*data).shader_paths.screen = strings.Clone(value) 
+  } else {
+    fmt.Println( "[ERROR] unknown variable name:", var_name )
   }
 }
 
