@@ -53,8 +53,15 @@ standard library docs are [here](https://pkg.go.dev/std)
     - answer given questions get points -> get highscore
   - [X] strings, runes, bytes
   - [X] structs and interfaces
-  - [ ] pointers
-  - [ ] goroutines
+  - [X] pointers
+  - [X] load custom file format from disk
+  ```text
+  [variabe] value 
+  [struct] {
+    [struct_member] value
+  }
+  ```
+  - [-] goroutines
   - [ ] channels
   - [ ] generics
 

@@ -1,0 +1,12 @@
+// comment ignore this
+
+[font_size] 30
+[frame_rate] 60
+[window_title] "hello there"
+[vsync_enabled] true
+
+[shader_paths] {
+  [basic]  "path/to/shader"
+  [pbr]    "path/to/shader"
+  [screen] "path/to/shader"
+}

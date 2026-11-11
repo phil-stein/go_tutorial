@@ -24,8 +24,20 @@ func main(){
   // -- break statement --
   for {   // always true same as for true {}
     if 0 == 0 {
-      break
+      break   // break breaks out of the loop completely
     }
+  }
+
+  // -- continue statement --
+
+  var arr_00 = [...]int{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }
+
+  for _, value := range arr_00 {
+
+    if value <= 5 {
+      continue  // continue skips to the next loop iteration
+    }
+    fmt.Println( "value:", value)
   }
 
   // -- traditional for loops --
