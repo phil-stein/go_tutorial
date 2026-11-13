@@ -45,16 +45,18 @@ standard library docs are [here](https://pkg.go.dev/std)
 
 ## install fyne for ui projects
   1. go into terminal and `cd` into folder for project thats supposed to use fyne
-  2. excute command `go get fyne.io/fyne/v2@latest`
-  3. excute command `go get fyne.io/fyne/v2/internal/app@v2.8.2`
-  4. excute command `go get fyne.io/fyne/v2/internal/svg@v2.8.2`
-  5. excute command `go get fyne.io/fyne/v2/internal/painter@v2.8.2`
-  6. excute command `go get fyne.io/fyne/v2/lang@v2.8.2`
-  7. excute command `go get fyne.io/fyne/v2/widget@v2.8.2`
-  8. excute command `go get fyne.io/fyne/v2/internal/painter/software@v2.8.2`
-  9. excute command `go get fyne.io/fyne/v2/internal/driver/glfw@v2.8.2`
-  10. excute command `go get fyne.io/fyne/v2/internal/metadata@v2.8.2`
-  11. excute command `go get fyne.io/fyne/v2/app@v2.8.2`
+  2. follow steps shown in `start a project`
+      - aka. do `go mod init <name>` 
+  4. excute command `go get fyne.io/fyne/v2@latest`
+  5. excute command `go get fyne.io/fyne/v2/internal/app@v2.8.2`
+  6. excute command `go get fyne.io/fyne/v2/internal/svg@v2.8.2`
+  7. excute command `go get fyne.io/fyne/v2/internal/painter@v2.8.2`
+  8. excute command `go get fyne.io/fyne/v2/lang@v2.8.2`
+  9. excute command `go get fyne.io/fyne/v2/widget@v2.8.2`
+  10. excute command `go get fyne.io/fyne/v2/internal/painter/software@v2.8.2`
+  11. excute command `go get fyne.io/fyne/v2/internal/driver/glfw@v2.8.2`
+  12. excute command `go get fyne.io/fyne/v2/internal/metadata@v2.8.2`
+  13. excute command `go get fyne.io/fyne/v2/app@v2.8.2`
 
 ## todo
   - [X] add simple read write terminal input in place 04
