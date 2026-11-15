@@ -4,6 +4,8 @@ made using this [youtube video](https://www.youtube.com/watch?v=8uiZC0l4Ajw)
 
 standard library docs are [here](https://pkg.go.dev/std)
 
+raven bindings tutorial is [here](https://oscar-soirey.github.io/Raven/bindings.html#go)
+
 ## installation
   1. install git from [here](https://gitforwindows.org/), or go to and open [this](./assets/Git-2.56.0.4-64-bit.exe) 
   2. open terminal and `cd` to your chosen directory
