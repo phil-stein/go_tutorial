@@ -60,6 +60,12 @@ raven bindings tutorial is [here](https://oscar-soirey.github.io/Raven/bindings.
   12. excute command `go get fyne.io/fyne/v2/internal/metadata@v2.8.2`
   13. excute command `go get fyne.io/fyne/v2/app@v2.8.2`
 
+## install odin for /19_ui_04
+  1. go to [odin-website](https://odin-lang.org/)
+  2. click download
+  3. install odin
+  4. good to go
+
 ## todo
   - [X] add simple read write terminal input in place 04
     - answer questions get points
