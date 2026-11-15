@@ -1,6 +1,6 @@
 // A window described in XML, driven from Go.
 //
-//	CGO_CFLAGS="-I../../../include" CGO_LDFLAGS="-L/path/to/lib" go run .
+//#cgo CGO_CFLAGS="-Iexternal/Raven/include" CGO_LDFLAGS="-Lexternal/Raven/build/Realease" go run .
 //
 // `go run . --test` runs without a window system and without a GPU, clicks its
 // own button and checks what happened: it is how the build of Raven checks
@@ -13,7 +13,7 @@ import (
 	"runtime"
 	"strings"
 
-	"raven/bindings/go/raven"
+	"raven/raven"
 )
 
 const xml = `
